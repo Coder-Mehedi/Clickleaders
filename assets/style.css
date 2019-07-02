@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700|Questrial&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-image: url(/images/click-leaders.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  padding: 16px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu a {
+  color: #fff;
+  padding: 27px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+}
+.banner-text {
+  text-align: center;
+  color: #fff;
+  margin-top: 135px;
+}
+.banner-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 52px;
+}
+.mouse-wheel {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  paddint-to: 0px;
+  padding-top: 170px;
+}
+
+img.mouse-outline {
+  position: relative;
+}
+
+img.mouse-wheel {
+  position: absolute;
+  top: 10px;
+}
+.scroll-text {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+/* end of header banner section */
+
+/* about section start */
+.vertical-line {
+  display: flex;
+  justify-content: center;
+
+}
+.vertical-line > div {
+  width: 1px;
+  height: 100px;
+  background: #b4d7f9;
+}
+
+.menu a {
+  text-transform: uppercase;
+}
+
+.who-we-are {
+  text-align: center;
+  padding-top: 80px;
+}
+.about-wrapper a {
+  color: #000;
+}
+.who-we-are .company {
+  font-family: "Questrial";
+}
+.mac-and-shape {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+.shape-green {
+  height: 115px;
+  position: absolute;
+  left: 209px;
+  top: -48px;
+}
+.macbook {
+  height: 500px;
+  z-index: 10;
+}
+.shape-blue {
+  height: 270px;
+  position: absolute;
+  right: 188px;
+  bottom: 0px;
+}
+.who-we-are h2 {
+  font-weight: 700;
+}
+.who-we-are p.mac-bottom-text {
+  padding: 120px 310px;
+  font-family: "Questrial";
+  font-style: italic;
+}
+
+/* end about section */
+
+/* start technologys */
+
+.technology {
+  text-align: center;
+  background-image: url(/images/tech-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 460px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.technology .technology-heading {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 42px;
+  padding-top: 70px;
+}
+
+.technology .tech-text {
+  font-family: "Questrial";
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.technology .company {
+  padding-top: 50px;
+}
+/* end technology section */
+
+/* start team section */
+
+.team {
+  padding: 50px 0px 0px;
+
+  background-color: #067ceb;
+
+  color: #fff;
+}
+.intro {
+  text-align: center;
+}
+.intro h1 {
+  font-weight: bold;
+}
+.intro p {
+  padding: 10px 440px 50px;
+}
+.box {
+  width: 40%;
+  height: 40%;
+  border: 1px solid #278cea;
+  text-align: center;
+  padding: 50px;
+}
+.box .category {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.box ul {
+  list-style: none;
+}
+.box ul li {
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Questrial";
+}
+
+.send-cv {
+  padding: 8px 35px;
+  background: #0563bc;
+  border-radius: 5%;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* end team section */
+
+/* start events */
+
+.events {
+  background-image: url(/images/company-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  padding-bottom: 340px;
+}
+.intro {
+}
+.intro h1 {
+  padding-top: 35px;
+}
+.intro p {
+  font-family: "Questrial";
+}
+.company-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.company-list .box {
+  border: 1px solid #e6e6e6;
+  padding-bottom: 50px;
+}
+.box img {
+  max-height: 75px;
+}
+
+/* end company section */
+
+/* start contact section */
+.intro-contact h1 {
+  color: #fff;
+}
+.intro-contact p {
+  color: #fff;
+  padding: 10px 325px;
+  font-family: "Questrial";
+}
+.contact-us {
+  text-align: center;
+  background: #22c064;
+  padding: 100px 0px;
+}
+.contact-us form {
+  padding-top: 20px;
+}
+.contact-us input {
+  margin-bottom: 10px;
+  background: transparent;
+}
+.contact-us input:focus {
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+}
+.contact-us input::placeholder {
+  color: white;
+}
+
+.send-message-btn {
+  color: #fff;
+  background: #1b9a50;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5%;
+  margin-top: 15px;
+}
+.intro-contact h1 {
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.contact-us {
+  text-align: center;
+  background: #22c064;
+  padding: 100px 0px;
+}
+.contact-us form {
+  padding-top: 20px;
+}
+.contact-us input {
+  margin-bottom: 10px;
+  background: transparent;
+}
+.contact-us input:focus {
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+}
+.contact-us input::placeholder {
+  color: white;
+  font-family: "Lato";
+}
+
+.send-message-btn {
+  background: #1b9a50;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5%;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.location {
+  position: relative;
+}
+
+.location iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.map-address {
+  position: relative;
+  height: 225px;
+  width: 265px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 75% 78%, 18% 79%, 0 100%);
+
+  background: #2991d6;
+  padding: 20px;
+  /* color: wheat; */
+}
+.map-marker {
+  position: absolute;
+  top: 55px;
+  left: 30px;
+  font-size: 25px;
+}
+.map-address h3 {
+  color: #fff;
+  font-size: 24px;
+}
+.map-address pre {
+  position: absolute;
+  top: 65px;
+  right: 45px;
+  color: #fff;
+}
+.full-map-address {
+  position: absolute;
+  top: 83px;
+  right: 160px;
+}
+/* end map section */
+
+/* start footer */
+.footer {
+  text-align: center;
+  padding: 35px;
+}
+
+.footer .copyright,
+.footer .terms {
+  font-family: "Questrial";
+}
+.footer .terms {
+  margin-bottom: 0px;
+}
+
+/* end footer */
